@@ -1,9 +1,15 @@
 Tools Used : 
 
-Maven - Build Tool
 TestNG - Unit Testing Framework
 Github - Code Repository
 Page Object Model - Design Pattern
 Reading Data from External File(excel)using Apache POI
 Programming Language - JAVA
 9.Selenium - Testing tool 
+
+TestCase Execution :
+
+*There is file with name "testng.xml" in root folder.
+*Open the testng.xml file
+*Right click on the file and Go to "Run As".
+*select "Run as TESTNG-SUITE" 
