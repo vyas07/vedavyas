@@ -8,6 +8,8 @@ Programming Language - JAVA
 Selenium - Testing tool 
 Extent Reports - For reporting 
 
+Google Chrome Version : 90.0.4430.72
+
 TestCase Execution :
 
 *There is file with name "testng.xml" in root folder.
