@@ -5,7 +5,8 @@ Github - Code Repository
 Page Object Model - Design Pattern
 Reading Data from External File(excel)using Apache POI
 Programming Language - JAVA
-9.Selenium - Testing tool 
+Selenium - Testing tool 
+Extent Reports - For reporting 
 
 TestCase Execution :
 
@@ -13,3 +14,6 @@ TestCase Execution :
 *Open the testng.xml file
 *Right click on the file and Go to "Run As".
 *select "Run as TESTNG-SUITE" 
+
+TestCase Report : 
+*TestCase Report Generated under Reports folder.
