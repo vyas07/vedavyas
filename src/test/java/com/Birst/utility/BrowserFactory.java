@@ -15,7 +15,7 @@ public class BrowserFactory {
 	
 	public static WebDriver launchApplication(WebDriver driver,String browserName , String appUrl) {
 		
-		switch (browserName) 
+		switch (browserName.toLowerCase()) 
 		{
 		case "ie":
 			System.setProperty("webdriver.ie.driver", "./Drivers/IEDriverServer.exe");
@@ -30,7 +30,7 @@ public class BrowserFactory {
 			break;
 
 		case "firefox":
-			System.setProperty("webdriver.firefox.driver", "./Drivers/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "./Drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 
 			break;
