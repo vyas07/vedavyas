@@ -11,12 +11,27 @@ Extent Reports - For reporting
 Google Chrome Version : 90.0.4430.72
 Chrome Driver Version : 90.0.4430.24
 ***************************************************
+
 TestCase Execution :
 
-*There is file with name "testng.xml" in root folder.
+From CMD : 
+
+*In Command Prompt navigate to project path and run command :
+
+********************************************************
+
+mvn clean test -DsuiteXmlFile=testng.xml
+
+********************************************************
+
+From Eclipse : 
+
+*Import Project to Eclipse workspace
+*There is a file with name "testng.xml" in root folder.
 *Open the testng.xml file
 *Right click on the file and Go to "Run As".
 *select "Run as TESTNG-SUITE" 
+
 
 TestCase Report : 
 *TestCase Report Generated under Reports folder.
