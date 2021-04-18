@@ -5,11 +5,28 @@ Github - Code Repository
 Page Object Model - Design Pattern
 Reading Data from External File(excel)using Apache POI
 Programming Language - JAVA
-9.Selenium - Testing tool 
+Selenium - Testing tool 
+Extent Reports - For reporting 
 
+Google Chrome Version : 90.0.4430.72
+Chrome Driver Version : 90.0.4430.24
+***************************************************
 TestCase Execution :
 
 *There is file with name "testng.xml" in root folder.
 *Open the testng.xml file
 *Right click on the file and Go to "Run As".
 *select "Run as TESTNG-SUITE" 
+
+TestCase Report : 
+*TestCase Report Generated under Reports folder.
+
+
+**************************************************
+If there are any errors at project level after adding project to workspace, please follow the below steps :
+
+*Right click on the project and select "MAVEN"
+*In the options under "Maven", select "Update Project" option.
+
+if there are any errors after adding project to workspace, These steps should solve the errors and test case can be executed by executing testng.xml file. 
+
